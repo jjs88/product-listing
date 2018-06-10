@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Listing</title>
 </head>
-<body>
+<body>  
+    <section class="products-container"></section>
+    <div class="cart">
+        <div class="cart-info">
+            Your Shopping Cart (<span class="cart-qty"></span>)
+            <div>
+                Total: <span class="cart-total"></span>
+            </div>
+        </div>
+        <!-- <button class="cart-checkout">checkout</button> -->
+    </div>
 
-  <form class="noteForm">
-    <input type="text" placeholder="add note" name="note"/>
-    <button type="submit"></button>
-  </form>
-
-  <h3 class="notesNum"></h3>
-  <div class="notes"></div>
-
-
-  <script src="scripts/bundle.js"></script>
+    <script async src="scripts/bundle.js"></script>
 </body>
 </html>

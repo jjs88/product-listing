@@ -1,3 +1,2 @@
-.notes {
-  color:red;
-}
+@import './styles/normalizer.css';
+@import './styles/style.css';
